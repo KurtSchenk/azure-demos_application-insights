@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndWebAPI", "FrontEndW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopClient2", "DesktopClient2\DesktopClient2.csproj", "{6DB9131E-CD53-47A1-8E2B-334F048CFBED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ServiceModel.TelemetryCorrelation", "C:\Users\kurtsc\OneDrive - Microsoft\Documents\GitHub\mconnew\WCFTelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation.csproj", "{55330CF3-1BCF-49E6-AB04-26FBA3AF6662}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.ServiceModel.TelemetryCorrelation", "..\..\WCFTelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation.csproj", "{55330CF3-1BCF-49E6-AB04-26FBA3AF6662}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

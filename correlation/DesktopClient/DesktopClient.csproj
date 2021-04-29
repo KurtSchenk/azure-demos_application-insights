@@ -112,12 +112,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:\Users\kurtsc\OneDrive - Microsoft\Documents\GitHub\mconnew\WCFTelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation.csproj">
-      <Project>{55330cf3-1bcf-49e6-ab04-26fba3af6662}</Project>
-      <Name>Microsoft.ServiceModel.TelemetryCorrelation</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.16.0\build\Microsoft.ApplicationInsights.DependencyCollector.targets" Condition="Exists('..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.16.0\build\Microsoft.ApplicationInsights.DependencyCollector.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

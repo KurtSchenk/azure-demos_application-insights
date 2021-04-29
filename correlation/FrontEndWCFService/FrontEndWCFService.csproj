@@ -182,10 +182,6 @@
       <Name>Shared</Name>
       <Private>True</Private>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\kurtsc\OneDrive - Microsoft\Documents\GitHub\mconnew\WCFTelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation.csproj">
-      <Project>{55330cf3-1bcf-49e6-ab04-26fba3af6662}</Project>
-      <Name>Microsoft.ServiceModel.TelemetryCorrelation</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
