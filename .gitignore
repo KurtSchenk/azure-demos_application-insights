@@ -3,3 +3,18 @@
 ################################################################################
 
 /correlation/AngularClient/bin
+/correlation/.vs/correlation/v16
+/correlation/AngularClient/obj
+/correlation/DesktopClient/bin/Debug
+/correlation/DesktopClient/obj
+/correlation/DesktopClient2/bin/Debug
+/correlation/DesktopClient2/obj
+/correlation/FrontEndWCFService/bin
+/correlation/FrontEndWCFService/obj
+/correlation/FrontEndWebAPI/bin
+/correlation/FrontEndWebAPI/obj
+/correlation/InternalService/bin
+/correlation/InternalService/obj
+/correlation/Shared/bin
+/correlation/Shared/obj
+/correlation/packages
