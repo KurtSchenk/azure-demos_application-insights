@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FrontEndWCFService
 {
@@ -17,7 +18,20 @@ namespace FrontEndWCFService
         string GetAreaOfCircle(string radius);
 
         [OperationContract]
+        [WebGet(UriTemplate = "areaOfAsync/{radius}")]
+        Task<string> GetAreaOfCircle2Async(string radius);
+
+        [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
+
+        [OperationContract]
+        [WebGet(UriTemplate = "rootId")]
+        string GetActivityRootId();
+
+        [OperationContract]
+        //string GetActivityRootId2Hop([CallerMemberName] string instancePath = "");
+        [WebGet(UriTemplate = "rootId2Hop")]
+        string GetActivityRootId2Hop();
 
         // TODO: Add your service operations here
     }

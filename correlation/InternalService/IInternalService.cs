@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace InternalService
 {
@@ -17,6 +18,12 @@ namespace InternalService
 
         [OperationContract]
         double GetValueOfPi();
+
+        [OperationContract]
+        Task<double> GetValueOfPi2Async();
+
+        [OperationContract]
+        Task<string> GetActivityRootId2Async();
 
         // TODO: Add your service operations here
     }

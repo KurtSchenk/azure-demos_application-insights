@@ -36,6 +36,10 @@
             this.FindAreaViaWebServiceButton = new System.Windows.Forms.Button();
             this.FlushAIAndClosebutton = new System.Windows.Forms.Button();
             this.btnAspNet = new System.Windows.Forms.Button();
+            this.btn2Hop = new System.Windows.Forms.Button();
+            this.bntRootId2HopWcf = new System.Windows.Forms.Button();
+            this.btn_Bing = new System.Windows.Forms.Button();
+            this.btnBingAsync = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,11 +119,55 @@
             this.btnAspNet.UseVisualStyleBackColor = true;
             this.btnAspNet.Click += new System.EventHandler(this.btnAspNet_Click);
             // 
+            // btn2Hop
+            // 
+            this.btn2Hop.Location = new System.Drawing.Point(280, 52);
+            this.btn2Hop.Name = "btn2Hop";
+            this.btn2Hop.Size = new System.Drawing.Size(151, 23);
+            this.btn2Hop.TabIndex = 7;
+            this.btn2Hop.Text = "RootId2Hop";
+            this.btn2Hop.UseVisualStyleBackColor = true;
+            this.btn2Hop.Click += new System.EventHandler(this.btn2Hop_Click);
+            // 
+            // bntRootId2HopWcf
+            // 
+            this.bntRootId2HopWcf.Location = new System.Drawing.Point(437, 51);
+            this.bntRootId2HopWcf.Name = "bntRootId2HopWcf";
+            this.bntRootId2HopWcf.Size = new System.Drawing.Size(113, 23);
+            this.bntRootId2HopWcf.TabIndex = 8;
+            this.bntRootId2HopWcf.Text = "RootId2Hop WCF";
+            this.bntRootId2HopWcf.UseVisualStyleBackColor = true;
+            this.bntRootId2HopWcf.Click += new System.EventHandler(this.bntRootId2HopWcf_Click);
+            // 
+            // btn_Bing
+            // 
+            this.btn_Bing.Location = new System.Drawing.Point(60, 51);
+            this.btn_Bing.Name = "btn_Bing";
+            this.btn_Bing.Size = new System.Drawing.Size(106, 23);
+            this.btn_Bing.TabIndex = 9;
+            this.btn_Bing.Text = "Bing sync";
+            this.btn_Bing.UseVisualStyleBackColor = true;
+            this.btn_Bing.Click += new System.EventHandler(this.btn_Bing_Click);
+            // 
+            // btnBingAsync
+            // 
+            this.btnBingAsync.Location = new System.Drawing.Point(60, 83);
+            this.btnBingAsync.Name = "btnBingAsync";
+            this.btnBingAsync.Size = new System.Drawing.Size(106, 23);
+            this.btnBingAsync.TabIndex = 10;
+            this.btnBingAsync.Text = "Bing async";
+            this.btnBingAsync.UseVisualStyleBackColor = true;
+            this.btnBingAsync.Click += new System.EventHandler(this.btnBingAsync_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBingAsync);
+            this.Controls.Add(this.btn_Bing);
+            this.Controls.Add(this.bntRootId2HopWcf);
+            this.Controls.Add(this.btn2Hop);
             this.Controls.Add(this.btnAspNet);
             this.Controls.Add(this.FlushAIAndClosebutton);
             this.Controls.Add(this.FindAreaViaWebServiceButton);
@@ -147,6 +195,10 @@
         private System.Windows.Forms.Button FindAreaViaWebServiceButton;
         private System.Windows.Forms.Button FlushAIAndClosebutton;
         private System.Windows.Forms.Button btnAspNet;
+        private System.Windows.Forms.Button btn2Hop;
+        private System.Windows.Forms.Button bntRootId2HopWcf;
+        private System.Windows.Forms.Button btn_Bing;
+        private System.Windows.Forms.Button btnBingAsync;
     }
 }
 

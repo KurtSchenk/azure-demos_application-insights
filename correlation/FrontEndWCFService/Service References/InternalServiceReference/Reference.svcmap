@@ -22,9 +22,9 @@
     <MetadataSource Address="net.pipe://localhost/InternalService/InternalService.svc/mex/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="817d7587-e177-4250-8cc6-0f5250dedbe0" SourceId="1" SourceUrl="net.pipe://localhost/InternalService/InternalService.svc/mex/mex" />
-    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="15667e96-85e5-499d-9d69-67c1e3797c4a" SourceId="1" SourceUrl="net.pipe://localhost/InternalService/InternalService.svc/mex/mex" />
-    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="f917fc1a-300c-441a-9751-c8aa48c6e67d" SourceId="1" SourceUrl="net.pipe://localhost/InternalService/InternalService.svc/mex/mex" />
+    <MetadataFile FileName="service2.wsdl" MetadataType="Wsdl" ID="46297401-45c1-4538-a901-380cbef1aead" SourceId="1" SourceUrl="net.pipe://localhost/InternalService/InternalService.svc/mex/mex" />
+    <MetadataFile FileName="service3.xsd" MetadataType="Schema" ID="90e023d4-c4cf-40ac-9c68-a2a5ad5baa78" SourceId="1" SourceUrl="net.pipe://localhost/InternalService/InternalService.svc/mex/mex" />
+    <MetadataFile FileName="service4.xsd" MetadataType="Schema" ID="71da3c21-a67f-4e97-932f-284f4d368bbb" SourceId="1" SourceUrl="net.pipe://localhost/InternalService/InternalService.svc/mex/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

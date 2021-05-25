@@ -26,6 +26,18 @@ namespace FrontEndWCFService.InternalServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInternalService/GetValueOfPi", ReplyAction="http://tempuri.org/IInternalService/GetValueOfPiResponse")]
         System.Threading.Tasks.Task<double> GetValueOfPiAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInternalService/GetValueOfPi2", ReplyAction="http://tempuri.org/IInternalService/GetValueOfPi2Response")]
+        double GetValueOfPi2();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInternalService/GetValueOfPi2", ReplyAction="http://tempuri.org/IInternalService/GetValueOfPi2Response")]
+        System.Threading.Tasks.Task<double> GetValueOfPi2Async();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInternalService/GetActivityRootId2", ReplyAction="http://tempuri.org/IInternalService/GetActivityRootId2Response")]
+        string GetActivityRootId2();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IInternalService/GetActivityRootId2", ReplyAction="http://tempuri.org/IInternalService/GetActivityRootId2Response")]
+        System.Threading.Tasks.Task<string> GetActivityRootId2Async();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -69,6 +81,22 @@ namespace FrontEndWCFService.InternalServiceReference {
         
         public System.Threading.Tasks.Task<double> GetValueOfPiAsync() {
             return base.Channel.GetValueOfPiAsync();
+        }
+        
+        public double GetValueOfPi2() {
+            return base.Channel.GetValueOfPi2();
+        }
+        
+        public System.Threading.Tasks.Task<double> GetValueOfPi2Async() {
+            return base.Channel.GetValueOfPi2Async();
+        }
+        
+        public string GetActivityRootId2() {
+            return base.Channel.GetActivityRootId2();
+        }
+        
+        public System.Threading.Tasks.Task<string> GetActivityRootId2Async() {
+            return base.Channel.GetActivityRootId2Async();
         }
     }
 }

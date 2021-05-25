@@ -22,8 +22,16 @@ namespace DesktopClient
 
         public override void WriteLine(string message)
         {
-            _target.Invoke(_invokeWrite, new object[]
-                { message + Environment.NewLine });
+            StackTrace trace = new StackTrace();
+            StackFrame[] stackFrames = trace.GetFrames();
+            if (Array.Exists(stackFrames, element => element.GetMethod().DeclaringType.Name.ToUpper().Equals("TRACE")))
+            {
+                _target.Invoke(_invokeWrite, new object[]  { message + Environment.NewLine });
+            }
+            if (Array.Exists(stackFrames, element => element.GetMethod().DeclaringType.Name.ToUpper().Equals("DEBUG")))
+            {
+                //do nothing
+            }
         }
 
         private delegate void StringSendDelegate(string message);

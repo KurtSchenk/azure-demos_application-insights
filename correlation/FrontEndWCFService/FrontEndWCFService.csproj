@@ -124,6 +124,7 @@
     <Content Include="FrontEndService.svc" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
+    <Content Include="libman.json" />
     <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
     <None Include="Service References\InternalServiceReference\configuration91.svcinfo" />
     <None Include="Service References\InternalServiceReference\configuration.svcinfo" />
@@ -157,10 +158,17 @@
     </Content>
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <None Include="Service References\InternalServiceReference\service1.wsdl" />
+    <None Include="Service References\InternalServiceReference\service2.wsdl" />
     <None Include="Service References\InternalServiceReference\service2.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\InternalServiceReference\service21.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\InternalServiceReference\service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\InternalServiceReference\service4.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Web.Debug.config">
@@ -177,6 +185,10 @@
     <WCFMetadataStorage Include="Service References\InternalServiceReference\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\WCFTelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation\src\Microsoft.ServiceModel.TelemetryCorrelation.csproj">
+      <Project>{55330cf3-1bcf-49e6-ab04-26fba3af6662}</Project>
+      <Name>Microsoft.ServiceModel.TelemetryCorrelation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Shared\Shared.csproj">
       <Project>{095302d9-8c77-4247-85b0-ec0014489b98}</Project>
       <Name>Shared</Name>

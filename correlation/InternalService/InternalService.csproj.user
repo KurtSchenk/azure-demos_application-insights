@@ -11,6 +11,7 @@
     <UseGlobalApplicationHostFile />
     <NameOfLastUsedPublishProfile>IISProfile</NameOfLastUsedPublishProfile>
     <ActiveDebugTarget />
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
